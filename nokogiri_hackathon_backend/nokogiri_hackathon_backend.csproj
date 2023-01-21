@@ -13,6 +13,15 @@
     <None Remove="Grains\" />
     <None Remove="Models\" />
     <None Remove="Services\" />
+    <None Remove="Microsoft.Orleans.Core" />
+    <None Remove="Microsoft.Orleans.Core.Abstractions" />
+    <None Remove="Microsoft.Orleans.OrleansRuntime" />
+    <None Remove="Microsoft.Orleans.Client" />
+    <None Remove="Microsoft.Orleans.Server" />
+    <None Remove="Microsoft.Orleans.Clustering.AzureStorage" />
+    <None Remove="Microsoft.Orleans.Streaming" />
+    <None Remove="Microsoft.Orleans.Runtime" />
+    <None Remove="Microsoft.Orleans.Persistence.AzureStorage" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -24,6 +33,15 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.2" />
+    <PackageReference Include="Microsoft.Orleans.Core" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.OrleansRuntime" Version="3.6.5" />
+    <PackageReference Include="Microsoft.Orleans.Client" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Clustering.AzureStorage" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Streaming" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Runtime" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Persistence.AzureStorage" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,8 +1,13 @@
-﻿using System;
-namespace nokogiri_hackathon_backend.Grains
+﻿using nokogiri_hackathon_backend.Models;
+namespace nokogiri_hackathon_backend.Grains;
+
+
+public interface IChatGrain : IGrainWithGuidKey
 {
-	public interface EmptyInterface
-	{
-	}
+    Task SetAsync(ChatItem item);
+
+    Task ClearAsync();
+
+    Task<ChatItem?> GetAsync();
 }
 
